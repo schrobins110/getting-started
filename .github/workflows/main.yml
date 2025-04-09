@@ -32,6 +32,7 @@ jobs:
         --registry-password ${{ secrets.REGISTRY_PASSWORD }} \
         --name getting-started-github \
         --location 'west europe' \
+        --os-type Linux \
         --ports '3000' \
         --azure-file-volume-share-name ${{ secrets.FILE_SHARE_NAME }} \
         --azure-file-volume-account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} \
