@@ -33,6 +33,8 @@ jobs:
         --name getting-started-github \
         --location 'west europe' \
         --os-type Linux \
+        --cpu 1 \
+        --memory 1.5 \
         --ports '3000' \
         --azure-file-volume-share-name ${{ secrets.FILE_SHARE_NAME }} \
         --azure-file-volume-account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} \
